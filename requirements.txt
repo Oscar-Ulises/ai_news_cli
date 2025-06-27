@@ -1,0 +1,6 @@
+openai
+requests
+diffusers
+transformers
+torch
+Pillow
