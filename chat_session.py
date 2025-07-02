@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "your_api_key"
 
 def openai_function(prompt):
     try:
