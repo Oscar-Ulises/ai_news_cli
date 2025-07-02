@@ -5,7 +5,7 @@ from ai_news_cli.chat_session import openai_function
 from ai_news_cli.image_generator import image_creator
 
 def headlines_creator():
-    url = "https://api.currentsapi.services/v1/latest-news?apiKey=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"
+    url = "https://api.currentsapi.services/v1/latest-news?apiKey=your_api_key"
     try:
         response = requests.get(url)
         headlines = [news['title'] for news in response.json().get("news", [])]
